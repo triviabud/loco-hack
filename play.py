@@ -13,8 +13,8 @@ CLOUD_VISION_ENDPOINT_URL = 'https://vision.googleapis.com/v1/images:annotate'
 from googleapiclient.discovery import build
 import pprint
 
-api_key = "YOUR_GOOGLE_API_KEY"
-cse_id = "YOUR_CUSTOM_GOOGLE_SEARCH_ENGINE_ID"
+api_key = "AIzaSyComZoqtFjNqhHudEoNYzELjIUxVQq-zPg"
+cse_id = "www.triviabuddy.com"
 
 def google_search(search_term, api_key, cse_id, **kwargs):
     service = build("customsearch", "v1", developerKey=api_key)
